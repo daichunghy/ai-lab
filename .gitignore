@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Node & Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.next/
+out/
+dist/
+build/
+.turbo/
+
+# Environment variables & secrets
+.env
+.env*.local
+*.pem
+*.key
+*.cert
+
+# Large weights, dataset caches, and media outputs
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+*.onnx
+downloads/
+cache/
+logs/
+*.log
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# AI Agent metadata / scratch
+.antigravity/
